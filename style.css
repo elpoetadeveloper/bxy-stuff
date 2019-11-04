@@ -1,3 +1,8 @@
 html {
   overscroll-behavior: unset;
 }
+
+button {
+  background-color: blue;
+  color: bisque;
+}
