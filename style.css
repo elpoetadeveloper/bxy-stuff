@@ -6,3 +6,19 @@ button {
   background-color: blue;
   color: bisque;
 }
+
+ #mytree .folder { background:url("lib/jstree/custom_sprite40px.png") no-repeat -3px -56px !important;}
+ #mytree .file { background:url("lib/jstree/custom_sprite40px.png") no-repeat -6px -2px !important;}
+/*.jstree-ocl { background:transparent !important; }
+.jstree-ocl:after { content:"+"; }*/
+/*
+.jstree-open > .jstree-ocl { 
+    background:transparent !important;;
+}
+.jstree-open > .jstree-ocl:after { content:"#" !important; }
+
+.jstree-closed > .jstree-ocl { 
+    background:transparent !important;
+}
+.jstree-closed > .jstree-ocl:after { content:"+" !important; }
+*/
