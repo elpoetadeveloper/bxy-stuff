@@ -16,7 +16,7 @@ button {
  */
 .jstree-default-responsive .jstree-node, .jstree-default-responsive .jstree-icon, .jstree-default-responsive .jstree-node>.jstree-ocl, .jstree-default-responsive .jstree-themeicon, .jstree-default-responsive .jstree-checkbox {
     background-image: url('lib/jstree/40px.png') no-repeat -40px -120px !important;
-    background-size: 120px 240px !important;}
+    }
 /*.jstree-ocl { background:transparent !important; }
 .jstree-ocl:after { content:"+"; }*/
 /*
