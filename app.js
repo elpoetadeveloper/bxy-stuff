@@ -24,7 +24,7 @@ function createJSTree(jsondata) {
   $("#mytree").jstree({
     core: {
       data: jsondata,
-      themes: { stripes: true, responsive: false, variant: "large", "icons": true, "dots": true }
+      themes: { stripes: true, responsive: false, variant: "small", "icons": true, "dots": true }
     },
     'types': {
       'root': { 'icon': 'folder' },
