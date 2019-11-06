@@ -34,7 +34,7 @@ function createJSTree(jsondata) {
       'default': { 'icon': 'folder' },
       'file': { 'valid_children': [], 'icon': 'file' }
     },
-    plugins: ["search", "themes", "json_data", "ui", "types"],
+    plugins: ["search", "themes", "json_data", "ui", "types", "dnd"],
     search: {
       case_sensitive: false,
       show_only_matches: true
