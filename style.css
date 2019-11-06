@@ -9,9 +9,23 @@ button {
 
  #mytree .folder { background:url("lib/jstree/custom_sprite40px.png") no-repeat -3px -56px !important;}
  #mytree .file { background:url("lib/jstree/custom_sprite40px.png") no-repeat -6px -2px !important;}
- .jstree-default-responsive .jstree-leaf>.jstree-ocl{
+ 
+ .jstree-node .jstree-icon.jstree-ocl {
+  background-image: url('lib/jstree/treeArrow.svg.png');
+  background-size: 35px 35px;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+.jstree-node.jstree-open > .jstree-icon.jstree-ocl {
+  transform: rotate(90deg);
+}
+[area-expanded$= "false"] .jstree-icon .jstree-ocl{
+  background:transparent !important;
+}
+ /*.jstree-default-responsive .jstree-leaf>.jstree-ocl{
  background-size: auto;}
-
+*/
  /*
  area-expanded = false
   .jstree-default-responsive .jstree-leaf>.jstree-ocl{

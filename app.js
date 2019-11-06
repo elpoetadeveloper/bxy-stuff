@@ -24,7 +24,7 @@ function createJSTree(jsondata) {
   $("#mytree").jstree({
     core: {
       data: jsondata,
-      themes: { stripes: true, responsive: false, variant: "small", "icons": true, "dots": true }
+      themes: { stripes: true, responsive: false, variant: "large", "icons": true, "dots": true }
     },
     'types': {
       'root': { 'icon': 'folder' },
@@ -34,7 +34,7 @@ function createJSTree(jsondata) {
       'default': { 'icon': 'folder' },
       'file': { 'valid_children': [], 'icon': 'file' }
     },
-    plugins: ["search", "themes", "json_data", "ui", "types", "dnd"],
+    plugins: ["search", "json_data", "ui", "types", "dnd"],
     search: {
       case_sensitive: false,
       show_only_matches: true
