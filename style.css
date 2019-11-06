@@ -6,10 +6,10 @@ button {
   background-color: green;
   color: bisque;
 }
-
+/*
  #mytree .folder { background:url("lib/jstree/custom_sprite40px.png") no-repeat -3px -56px !important;}
  #mytree .file { background:url("lib/jstree/custom_sprite40px.png") no-repeat -6px -2px !important;}
- /*
+ 
  .jstree-node .jstree-icon.jstree-ocl {
   background-image: url('lib/jstree/treeArrow.svg.png');
   background-size: 35px 35px;
