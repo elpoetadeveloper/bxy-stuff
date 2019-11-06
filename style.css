@@ -13,6 +13,7 @@ button {
  background-size: auto;}
 
  /*
+ area-expanded = false
   .jstree-default-responsive .jstree-leaf>.jstree-ocl{
     background: url('lib/jstree/40px.png') no-repeat 120px 240px !important;
  }
